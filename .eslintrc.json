@@ -35,6 +35,8 @@
     "consistent-return": 0,
     "react/prop-types": 0,
     "no-unused-vars": 0,
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": "off",
     "no-shadow": 0,
     "react/jsx-props-no-spreading": 0,
     "react/jsx-filename-extension": [

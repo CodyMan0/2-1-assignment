@@ -1,5 +1,14 @@
-import React from 'react';
+import styled from 'styled-components';
 
-const VehicleListStyle = () => {};
+const Container = styled.section`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 110px;
+`;
 
-export default VehicleListStyle;
+const S = {
+  Container,
+};
+
+export default S;

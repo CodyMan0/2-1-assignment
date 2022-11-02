@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 const Layout = styled.section`
-  padding: 1em;
-  max-width: 70%;
-  margin: auto;
-  height: 100%;
   display: flex;
   flex-direction: column;
+  max-width: 380px;
+  height: 100vh;
+  margin: 30px auto;
+  border: 1px solid black;
 `;
 
 const S = {

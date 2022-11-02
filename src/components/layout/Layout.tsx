@@ -1,3 +1,4 @@
+import Header from 'components/header/Header';
 import React from 'react';
 import S from './LayoutStyle';
 
@@ -6,7 +7,12 @@ type Props = {
 };
 
 const Layout = ({ children }: Props) => {
-  return <S.Layout>{children}</S.Layout>;
+  return (
+    <S.Layout>
+      <Header />
+      {children}
+    </S.Layout>
+  );
 };
 
 export default Layout;
