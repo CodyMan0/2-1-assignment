@@ -1,10 +1,16 @@
+import Detail from 'pages/Detail';
+import Home from 'pages/Home';
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const Router = () => {
   return (
-    <div>
-      <div>Router</div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/detail/:id" element={<Detail />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 

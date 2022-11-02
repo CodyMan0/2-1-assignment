@@ -1,5 +1,8 @@
 import React from 'react';
+import Layout from 'components/layout/Layout';
 
-const Detail = () => {};
+const Detail = () => {
+  return <Layout>dfdf</Layout>;
+};
 
 export default Detail;
