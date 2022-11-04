@@ -1,5 +1,17 @@
-import React from 'react';
+import styled from 'styled-components';
 
-const VehicleDetailStyle = () => {};
+const Container = styled.section`
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  height: inherit;
+`;
 
-export default VehicleDetailStyle;
+const DetailImg = styled.img``;
+
+const S = {
+  Container,
+  DetailImg,
+};
+
+export default S;

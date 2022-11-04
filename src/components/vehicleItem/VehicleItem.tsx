@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router';
-
 import S from './VehicleItemStyle';
 
 const VehicleItem = ({ car }: any) => {

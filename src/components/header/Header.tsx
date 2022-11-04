@@ -13,4 +13,5 @@ const Container = styled.div`
   font-size: 17px;
   font-weight: 700;
   line-height: 21px;
+  border-bottom: 1px solid black;
 `;

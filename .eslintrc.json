@@ -36,8 +36,9 @@
     "react/prop-types": 0,
     "no-unused-vars": 0,
     "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": "off", //초기 설장이 안된다는 것을 에러를 끔
     "no-shadow": 0,
+    "react/no-array-index-key": "off",
     "react/jsx-props-no-spreading": 0,
     "react/jsx-filename-extension": [
       1,
